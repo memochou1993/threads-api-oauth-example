@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Threads OAuth</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <h1>Threads OAuth</h1>
+  <button onclick="getAccessToken()">Get Access Token</button>
+  <button onclick="getLongLivedAccessToken()">Get Long-Lived Access Token</button>
+  <div>
+    Message: <br>
+    <div id="message"></div>
+    Access Token: <br>
+    <div id="access-token"></div>
+    Long-Lived Access Token: <br>
+    <div id="long-lived-access-token"></div>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
